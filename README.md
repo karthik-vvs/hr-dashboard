@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# HR Performance Dashboard (Advanced)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Setup Instructions
 
-## Available Scripts
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/hr-dashboard-advanced.git
+   cd hr-dashboard-advanced
 
-In the project directory, you can run:
+2. Install dependencies:
 
-### `npm start`
+    npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Start the development server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    npm start
 
-### `npm test`
+4. Open http://localhost:3000 in your browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⭐ Features Implemented
 
-### `npm run build`
+1.  Dashboard Homepage (/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Displays 20 dummy users with avatar, name, email, department, rating stars
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bookmark toggle with color and localStorage persistence
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Promote toggle with color and localStorage persistence
 
-### `npm run eject`
+Link to detailed employee view
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.  Search & Filter
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Search by name, email, department (case-insensitive)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Multi-select filters for department & rating
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3.  Employee Details Page (/employee/[id])
 
-## Learn More
+Tabbed UI: Overview, Projects, Feedback with dynamic mock data
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.  Bookmark Manager (/bookmarks)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+List bookmarked employees
 
-### Code Splitting
+Remove bookmarks, Promote and Assign project UI actions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5.  Analytics Page (/analytics)
 
-### Analyzing the Bundle Size
+Charts for department-wise average ratings and bookmark trends (mocked)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6.  State Management
 
-### Making a Progressive Web App
+React Context API for bookmarks and promotions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Data persistence using localStorage
 
-### Advanced Configuration
+7.  UI/UX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Responsive design with Bootstrap
 
-### Deployment
+Keyboard accessible controls
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Dynamic button states and colors for user actions
 
-### `npm run build` fails to minify
+Screenshots : -
+    Analytics - ![Analytics](https://github.com/karthik_vvs/hr-dashboard/raw/main/screenshots/Analytics.png)
+    Bookmark  - ![Bookmark](https://github.com/karthik_vvs/hr-dashboard/raw/main/screenshots/Bookmark.png)
+    dashboard  - ![dashboard](https://github.com/karthik_vvs/hr-dashboard/raw/main/screenshots/dashboard.png)
+    EmployeeCard  - ![EmployeeCard](https://github.com/karthik_vvs/hr-dashboard/raw/main/screenshots/dashboard.png)
+    View  - ![View](https://github.com/karthik_vvs/hr-dashboard/raw/main/screenshots/View.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
