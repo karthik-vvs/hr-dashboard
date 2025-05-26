@@ -65,13 +65,8 @@ bash
   -  Dynamic button states and colors for user actions
 
 Screenshots : -
-    Analystics - 
        ![Analytics](https://github.com/karthik-vvs/hr-dashboard/raw/main/screenshots/Analytics.png)
-    Bookmarks - 
        ![Bookmarks](https://github.com/karthik-vvs/hr-dashboard/raw/main/screenshots/Bookmarks.png)
-    Dashboard -
        ![Dashboard](https://github.com/karthik-vvs/hr-dashboard/raw/main/screenshots/dahboard.png)
-    EmployeeCard -
        ![EmployeeCard](https://github.com/karthik-vvs/hr-dashboard/raw/main/screenshots/EmployeeCard.png)
-    View - 
        ![View](https://github.com/karthik-vvs/hr-dashboard/raw/main/screenshots/View.png)
