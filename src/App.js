@@ -9,7 +9,7 @@ import EmployeeDetails from './pages/employee/[id]';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/hr-dashboard">
       <UsersProvider>
         <BookmarksProvider>
           <Routes>
